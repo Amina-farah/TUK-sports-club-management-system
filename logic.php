@@ -1,4 +1,5 @@
 <?php
+include_once "database.php";
 
     $query = "SELECT * FROM clubs";
     $result = mysqli_query($conn,$query);

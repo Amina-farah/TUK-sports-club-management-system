@@ -1,13 +1,5 @@
 <?php
-    $servername = "localhost";
-    $user = "root";
-    $password = "";
-    $dbase = "sdp";
-    //establish connection to mysql server
-    $conn = mysqli_connect($servername,$user,$password,$dbase);
-    
-
-    session_start();
+ include_once "database.php";
 
     if(isset($_POST['login'])) {
         $username = $_POST['username'];

@@ -1,14 +1,4 @@
-<?php
-    $servername = "localhost";
-    $user = "root";
-    $password = "";
-    $dbase = "sdp";
-    //establish connection to mysql server
-    $conn = mysqli_connect($servername,$user,$password,$dbase);
-    
-
-    session_start();
-?>
+<?php include_once "database.php"?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -84,12 +74,9 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" ondblclick="location.href='clubs.php?id='" style="color:#737373" role="button" aria-expanded="false">CLUBS</a>
           <ul class="dropdown-menu">
-            <!-- <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=course-based and academic">COURSE-BASED & ACADEMIC</a></li>
-            <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=general interest">GENERAL INTEREST</a></li>
-            <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=performing and creative">PERFORMING & CREATIVE</a></li> -->
+            
             <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id= sport and games"> sports club</a></li>
-            <!-- <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=community centric and voluntary">COMMUNITY CENTRIC & VOLUNTARY</a></li>
-            <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=cultural and international communities">CULTURAL & INTERNATIONAL COMMUNITIES</a></li> -->
+            
           </ul>
         </li>
         </div>
@@ -290,32 +277,12 @@
                   $blog_id = $res['eid'];
                   $blog_date = $res['edate_time'];
             ?>
-            <!-- <div class="col-sm">
-              <div class="carousel-cell p-2">
-                <div class="card  mx-2" style="width: 18rem;">
-                  <img class="card-img-top" src="eventsimages/<?php echo $image; ?>" height="250px" width="300px" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      <a href="eventsdetails.php?eid=<?php echo $blog_id?>" class="blog-link">
-                        <?php 
-                          echo $blog_title;
-                      ?>
-                    </h5>
-                    </a>
-                    <h6 class="card-subtitle mt-2 text-muted" style="font-size: .8rem;">Posted on - 
-                    <?php 
-                          echo $blog_date;
-                      ?>
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <?php
                 }
               }
             ?>
-          </div> -->
+          
 
         </div>
       </div>

@@ -1,12 +1,7 @@
-<?php
-    $servername = "localhost";
-    $user = "root";
-    $password = "";
-    $dbase = "sdp";
-    //establish connection to mysql server
-    $conn = mysqli_connect($servername,$user,$password,$dbase);
 
-    session_start();
+<?php include_once "database.php"?>
+<?php
+   
     
     if(isset($_GET['id'])){
         $id = $_GET['id'];

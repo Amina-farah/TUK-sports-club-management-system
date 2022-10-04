@@ -1,10 +1,6 @@
 <?php
-    $servername = "localhost";
-    $user = "root";
-    $password = "";
-    $dbase = "sdp";
-    //establish connection to mysql server
-    $conn = mysqli_connect($servername,$user,$password,$dbase);
+   include_once "database.php";
+
 
     $sql_query = "SELECT * FROM `students` where username = username LIMIT 1";
     $result = mysqli_query($conn, $sql_query);
