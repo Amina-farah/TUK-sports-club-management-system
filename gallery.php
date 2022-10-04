@@ -28,6 +28,9 @@
     <link href='https://fonts.googleapis.com/css?family=Koulen' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="images/sportslogo.png">
     <style>
+      *{
+        list-style: none;
+      }
       h1.a {
       font-family: "Capriola", sans-serif;
       color: #e6b800;
