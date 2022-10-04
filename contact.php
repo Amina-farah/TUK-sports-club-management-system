@@ -82,12 +82,9 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" ondblclick="location.href='clubs.php?id='" style="color:#737373" role="button" aria-expanded="false">CLUBS</a>
           <ul class="dropdown-menu">
-            <!-- <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=course-based and academic">COURSE-BASED & ACADEMIC</a></li>
-            <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=general interest">GENERAL INTEREST</a></li>
-            <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=performing and creative">PERFORMING & CREATIVE</a></li> -->
+           
             <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=sport and games"> SPORTS CLUB</a></li>
-            <!-- <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=community centric and voluntary">COMMUNITY CENTRIC & VOLUNTARY</a></li>
-            <li><a class="dropdown-item" style="color:#737373" href="clubs.php?id=cultural and international communities">CULTURAL & INTERNATIONAL COMMUNITIES</a></li> -->
+           
           </ul>
         </li>
         </div>
@@ -218,7 +215,7 @@
                     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                   </svg>
                     <br><br>
-                    <p style="text-align:center; font-size: 1.1rem; " class="lh-1"><a href="mailto:apu.amcs@gmail.com?subject=subject text">tuksportsclub@gmail.com</a></p>
+                    <p style="text-align:center; font-size: 1.1rem; " class="lh-1"><a href="mailto:tuksportsclub@gmail.com?subject=subject text">tuksportsclub@gmail.com</a></p>
                     <br><br><br>
                 </div>
             </div>
