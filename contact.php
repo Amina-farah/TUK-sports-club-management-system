@@ -166,7 +166,7 @@
 
     <!--Get In Touch-->
     <br>
-        <div class="content messagecontainer" style=" font-family: Koulen,san-serif; font-size:15px; border-style: dashed; border-radius: 4px; ">
+        <div class="content messagecontainer" style=" font-family: Koulen,san-serif; font-size:15px; border-style: solid; border-radius: 4px; ">
         <div class="text-center">
           <br>
           <h1 class="fst-italic mx-auto" style="font-weight: bold;font-size:60px"> Get In Touch</h1>
