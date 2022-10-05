@@ -7,7 +7,7 @@
     // $conn = mysqli_connect($servername,$user,$password,$dbase);
     
 
-    session_start();
+    // session_start();
     $query = ("SELECT * FROM events ORDER BY eid DESC LIMIT 50");
     $result = mysqli_query($conn,$query);
 
