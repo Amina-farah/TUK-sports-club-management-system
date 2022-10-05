@@ -1,4 +1,4 @@
-<?php  
+<?php  include_once "database.php"
 $conn = new mysqli('localhost', 'root', '');  
 mysqli_select_db($conn, 'sdp');  
 $sql = "SELECT `eid`, `etitle`, `cid`, `cname`, `edate_time` FROM `events`";  
